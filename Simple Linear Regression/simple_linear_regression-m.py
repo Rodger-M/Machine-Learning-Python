@@ -12,7 +12,6 @@ dataset = pd.read_csv('Salary_Data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
-
 # Splitting the dataset into the Training set and Test set
 # Dividindo os dados em conjunto de treino e teste
 from sklearn.model_selection import train_test_split
